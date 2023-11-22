@@ -24,4 +24,123 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  background-image: url("/jul.jpeg");
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.face-container {
+  z-index: 200;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.face {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 150px;
+  width: 100px;
+  z-index: 100;
+}
+
+.face-hidden {
+  display: none;
+}
+
+.face-visible {
+  display: block;
+}
+
+.call-to-christmas {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  @apply top-52 left-3 md:left-12;
+}
+
+.header {
+  background-color: rgba(255, 0, 0, 0.6);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  @apply text-xl font-semibold md:text-4xl md:font-normal rounded-lg shadow-md;
+}
+
+.image-wrapper {
+  height: 90px;
+}
+
+.tidspunkt {
+  padding: 10px;
+  margin-bottom: 20px;
+  /* background-color: rgba(255, 0, 0, 0.7); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @apply text-xl font-thin rounded-lg shadow-md;
+}
+
+.dag {
+  @apply font-semibold;
+}
+
+.klokkeslett {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kleskode {
+  padding: 5px 20px;
+  margin-bottom: 20px;
+  background-color: rgba(146, 76, 217, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @apply text-xl font-thin rounded-lg shadow-md;
+}
+
+.text-bold {
+  @apply font-normal;
+}
+
+.program-container {
+  background-color: rgba(255, 0, 0, 0.6);
+  @apply flex flex-col md:flex-row items-center justify-center p-2 rounded-sm shadow-md;
+}
+
+.container-col1 {
+  border-left: 0.5px solid rgb(255, 255, 255);
+  padding-right: 10px;
+}
+.container-col2 {
+  border-left: 0.5px solid rgb(255, 255, 255);
+}
+
+.program-item {
+  @apply p-2;
+}
+
+.program-klokkeslett {
+  @apply text-base font-thin;
+}
+
+.program-tittel {
+  @apply text-base font-normal;
+}
+
+.program-desc {
+  @apply text-base font-thin max-w-xs;
 }
