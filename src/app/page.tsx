@@ -99,18 +99,29 @@ export default function Home() {
             </div>
             <div className="program-item">
               <p className="program-klokkeslett">18:00</p>
-              <p className="program-tittel">Middag med Ypper</p>
-              <p className="program-desc">Hiv innpå</p>
+              <p className="program-tittel">Oppmøte, og velkomstdrink ✨</p>
+              <p className="program-desc">
+                Tørrprat, bobler i glasset og taffelmusikk
+              </p>
             </div>
             <div className="program-item">
-              <p className="program-klokkeslett">19:30</p>
-              <p className="program-tittel">Kappløp til bennaren</p>
-              <p className="program-desc">Den tradisjonelle samlingsplassen</p>
+              <p className="program-klokkeslett">18:30</p>
+              <p className="program-tittel">Bordsetting ✨</p>
+              <p className="program-desc">
+                Ypper serverer julegastronomi av ypperste klasse
+              </p>
+            </div>
+            <div className="program-item">
+              <p className="program-klokkeslett">20:00</p>
+              <p className="program-tittel">Faglig innslag ✨</p>
+              <p className="program-desc">
+                Thomas sørger for litt vett inn før vett ut
+              </p>
             </div>
           </div>
           <div className="container-col2">
             <div className="program-item">
-              <p className="program-klokkeslett">20:00</p>
+              <p className="program-klokkeslett">20:30</p>
               <p className="program-tittel">Boss-sjonglering</p>
               <p className="program-desc">tittelmesterskap</p>
             </div>
@@ -120,14 +131,26 @@ export default function Home() {
               <p className="program-desc">enda et kappløp?</p>
             </div>
             <div className="program-item">
-              <p className="program-klokkeslett">21:00</p>
+              <p className="program-klokkeslett">20:30</p>
               <p className="program-tittel">
                 Balansekonkurranse med naien i været
               </p>
               <p className="program-desc">Hvem er den stødigste på kontoret?</p>
             </div>
             <div className="program-item">
+              <p className="program-klokkeslett">21:00</p>
+              <p className="program-tittel">Dåp ✨</p>
+              <p className="program-desc">Jeg tok min nystemte..</p>
+            </div>
+            <div className="program-item">
               <p className="program-klokkeslett">22:00</p>
+              <p className="program-tittel">Kunstnerisk innslag ✨</p>
+              <p className="program-desc">
+                Peakon avdekker ønske om mer kunst og kultur
+              </p>
+            </div>
+            <div className="program-item">
+              <p className="program-klokkeslett">22:30</p>
               <p className="program-tittel">Rett i flaisen</p>
               <p className="program-desc">Familievennlig bergensspill</p>
             </div>

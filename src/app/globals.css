@@ -118,7 +118,7 @@ body {
 
 .program-container {
   background-color: rgba(255, 0, 0, 0.6);
-  @apply flex flex-col md:flex-row items-center justify-center p-2 rounded-sm shadow-md;
+  @apply flex flex-col md:flex-row justify-center p-2 rounded-sm shadow-md;
 }
 
 .container-col1 {
