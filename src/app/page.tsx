@@ -118,16 +118,16 @@ export default function Home() {
                 Thomas sørger for litt vett inn før vett ut
               </p>
             </div>
+            <div className="program-item">
+              <p className="program-klokkeslett">20:30</p>
+              <p className="program-tittel">Bossjonglering</p>
+              <p className="program-desc">tittelmesterskap</p>
+            </div>
           </div>
           <div className="container-col2">
             <div className="program-item">
               <p className="program-klokkeslett">20:30</p>
-              <p className="program-tittel">Boss-sjonglering</p>
-              <p className="program-desc">tittelmesterskap</p>
-            </div>
-            <div className="program-item">
-              <p className="program-klokkeslett">20:30</p>
-              <p className="program-tittel">Undikk-løp</p>
+              <p className="program-tittel">Undikkløp</p>
               <p className="program-desc">enda et kappløp?</p>
             </div>
             <div className="program-item">
@@ -143,6 +143,11 @@ export default function Home() {
               <p className="program-desc">Jeg tok min nystemte..</p>
             </div>
             <div className="program-item">
+              <p className="program-klokkeslett">21:00</p>
+              <p className="program-tittel">Pakkelek ✨</p>
+              <p className="program-desc">Pilotprosjekt - Ny bonusmodell</p>
+            </div>
+            <div className="program-item">
               <p className="program-klokkeslett">22:00</p>
               <p className="program-tittel">Kunstnerisk innslag ✨</p>
               <p className="program-desc">
@@ -156,8 +161,10 @@ export default function Home() {
             </div>
             <div className="program-item">
               <p className="program-klokkeslett">23:00</p>
-              <p className="program-tittel">Servering av drikke</p>
-              <p className="program-desc">Endelig noe i nebbet</p>
+              <p className="program-tittel">Workshop ✨</p>
+              <p className="program-desc">
+                Captain Jack - fra fossefall til agil tilnærming
+              </p>
             </div>
           </div>
         </div>
